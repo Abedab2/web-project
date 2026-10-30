@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Word / Office lock files
+~$*
+
+# Node / React (for later in the semester)
+node_modules/
+dist/
+.env
+.env.local
+*.log
