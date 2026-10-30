@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StudyWith – Home (wireframe)</title>
+  <link rel="stylesheet" href="wireframe.css">
+  <style>
+    .hero { display: grid; grid-template-columns: 1.15fr 1fr; gap: 36px; align-items: center; margin-top: 8px; }
+    .eyebrow { display: inline-block; font-size: 13px; font-weight: 700; color: var(--accent); background: var(--accent-soft); padding: 4px 10px; border-radius: 999px; margin-bottom: 14px; }
+    .hero h1 { font-size: 40px; }
+    .lead { font-size: 17px; margin: 14px 0 22px; max-width: 520px; }
+    .search { display: grid; grid-template-columns: 1.4fr 1fr auto; gap: 12px; align-items: end; }
+    .stats { display: flex; gap: 32px; margin-top: 22px; }
+    .stats b { display: block; font-size: 22px; }
+    .stats span { font-size: 13px; color: var(--muted); }
+    .hero-art { height: 340px; }
+    .step { display: flex; gap: 14px; align-items: flex-start; }
+    .step .num { width: 36px; height: 36px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 800; display: grid; place-items: center; flex: none; }
+    .cta { display: flex; align-items: center; justify-content: space-between; gap: 20px; background: var(--accent-soft); border-color: #c7d2fe; }
+    @media (max-width: 600px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 30px; }
+      .lead { font-size: 16px; margin: 10px 0 16px; }
+      .search { grid-template-columns: 1fr; }
+      .stats { gap: 20px; }
+      .cta { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <div class="browser"><div class="dots"><span></span><span></span><span></span></div><div class="url">studywith.app</div></div>
+  <header class="site-header">
+    <div class="nav">
+      <div class="logo">Study<b>With</b></div>
+      <nav class="links">
+        <a class="active">Home</a><a>Find groups</a><a>Create group</a><a>My groups<span class="badge">1</span></a>
+      </nav>
+      <button class="menu-btn">☰ Menu<span class="badge">1</span></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div>
+        <span class="eyebrow">For students, by students</span>
+        <h1>Find your study group.<br>Pass together.</h1>
+        <p class="lead muted">Join study sessions for your courses, on campus or online, or open your own group in two minutes.</p>
+        <div class="search card">
+          <div class="field"><label>Course</label><div class="input">Web Programming <span>▾</span></div></div>
+          <div class="field"><label>When</label><div class="input">Next 14 days <span>▾</span></div></div>
+          <a class="btn btn-primary">Find groups</a>
+        </div>
+        <div class="stats">
+          <div><b>38</b><span>active groups</span></div>
+          <div><b>12</b><span>courses</span></div>
+          <div><b>214</b><span>students this semester</span></div>
+        </div>
+      </div>
+      <div class="img-ph hero-art hide-mobile"><span>Illustration: students studying together</span></div>
+    </div>
+
+    <section>
+      <div class="section-head"><h2>Happening this week</h2><a>See all groups →</a></div>
+      <div class="grid-3">
+        <article class="card group-card">
+          <div class="chips"><span class="chip course">Data Structures</span><span class="chip">On campus</span></div>
+          <h3>Trees &amp; heaps from scratch</h3>
+          <div class="meta"><span>📅 Sun, 8 Nov · 18:00–20:00</span><span>📍 Building B, room 204</span><span>🎯 Getting started</span></div>
+          <div class="spots">5 of 6 spots taken · <b style="color:var(--warn)">1 left</b><div class="bar warn"><i style="width:83%"></i></div></div>
+          <div class="footer"><span class="by">by Lina Haddad</span><a class="btn btn-secondary btn-sm">View group</a></div>
+        </article>
+        <article class="card group-card">
+          <div class="chips"><span class="chip course">Web Programming</span><span class="chip">Online</span></div>
+          <h3>React hooks – past exam questions</h3>
+          <div class="meta"><span>📅 Tue, 10 Nov · 19:00–21:00</span><span>💻 Online · Zoom</span><span>🎯 Exam practice</span></div>
+          <div class="spots">4 of 6 spots taken<div class="bar"><i style="width:67%"></i></div></div>
+          <div class="footer"><span class="by">by Noa Levi</span><a class="btn btn-secondary btn-sm">View group</a></div>
+        </article>
+        <article class="card group-card">
+          <div class="chips"><span class="chip course">Databases</span><span class="chip">On campus</span></div>
+          <h3>SQL joins &amp; subqueries</h3>
+          <div class="meta"><span>📅 Thu, 12 Nov · 17:30–19:30</span><span>📍 Library, group room 2</span><span>🎯 Reviewing</span></div>
+          <div class="spots">3 of 5 spots taken<div class="bar"><i style="width:60%"></i></div></div>
+          <div class="footer"><span class="by">by Omer Ben-David</span><a class="btn btn-secondary btn-sm">View group</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 style="margin-bottom:16px">How it works</h2>
+      <div class="grid-3">
+        <div class="step"><div class="num">1</div><div><h3>Find</h3><p class="muted">Filter groups by course, date, format and level.</p></div></div>
+        <div class="step"><div class="num">2</div><div><h3>Join</h3><p class="muted">Save your spot in one click and get the place or link.</p></div></div>
+        <div class="step"><div class="num">3</div><div><h3>Study together</h3><p class="muted">Meet on campus or online and come prepared.</p></div></div>
+      </div>
+    </section>
+
+    <section class="card cta">
+      <div><h3>Can't find a group for your course?</h3><p class="muted">Open a new study group in two minutes and invite your classmates.</p></div>
+      <a class="btn btn-primary">Create a group</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">StudyWith · Study groups for college students · Web Programming project 2026–2027</footer>
+</body>
+</html>

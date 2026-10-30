@@ -1,10 +1,10 @@
-# User flow
+# User flows
 
-Save the user flow diagrams here, for example:
+| Scenario | Diagram |
+|----------|---------|
+| 1. Maya finds and joins a study group | `scenario-1-flow.svg` / `.png` |
+| 2. Maya creates a study group | `scenario-2-flow.svg` / `.png` |
 
-- `scenario-1-flow.png`
-- `scenario-2-flow.png`
+Notation: blue rectangle = screen, amber diamond = decision point, dashed gray box = system feedback, green pill = start / end, arrow = user action.
 
-If you draw them in draw.io, also keep the editable `.drawio` file here so the team can update it.
-
-Then insert the images into section 5 of `../Exercise1-Project-Approval.docx`.
+The `.svg` files open in any browser and can be imported into draw.io or Figma for editing. The `.png` files are embedded in section 5 of `../Exercise1-Project-Approval.docx`.
