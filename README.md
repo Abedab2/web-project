@@ -4,7 +4,7 @@
 
 StudyWith is a web app where college students find, join and create study groups for their courses, on campus or online. It's our semester project for **Web Programming (Client Side)**, School of Information Systems, 2026–2027.
 
-![StudyWith home page wireframe](docs/wireframes/01-home.png)
+![User flow – Scenario 1: finding and joining a study group](docs/user-flow/scenario-1-flow.png)
 
 ## Team
 
