@@ -17,7 +17,7 @@ StudyWith is a web app where college students find, join and create study groups
 ## Exercise 1 – Project approval
 
 - **Submission document:** [docs/Exercise1-Project-Approval.docx](docs/Exercise1-Project-Approval.docx), with the system description, persona, scenarios, user flows and wireframes
-- **Wireframes:** [docs/wireframes](docs/wireframes), five screens for desktop and mobile
+- **Wireframes:** [docs/wireframes](docs/wireframes), one for each of the five screens
 - **User flows:** [docs/user-flow](docs/user-flow), one diagram per scenario
 
 ### The five screens
@@ -27,7 +27,7 @@ StudyWith is a web app where college students find, join and create study groups
 | 1 | Home | Quick search by course, this week's groups, call to create a group |
 | 2 | Find Groups | Filter and browse all study groups |
 | 3 | Group Details | Agenda, time, place and free spots; join with one click |
-| 4 | Create Group | The main form (14 fields with validation), saved through the course API |
+| 4 | Create Group | The main form (11 fields with validation), saved through the course API |
 | 5 | My Groups | Sessions you joined and groups you created |
 
 ## Project structure
@@ -36,9 +36,8 @@ StudyWith is a web app where college students find, join and create study groups
 web-project/
 ├── docs/
 │   ├── Exercise1-Project-Approval.docx   Exercise 1 submission
-│   ├── wireframes/                       Wireframe images (desktop + mobile)
-│   │   └── source/                       HTML/CSS used to draw the wireframes
-│   └── user-flow/                        User flow diagrams (SVG + PNG)
+│   ├── wireframes/                       Wireframes of the five screens
+│   └── user-flow/                        User flow diagrams
 └── README.md
 ```
 
