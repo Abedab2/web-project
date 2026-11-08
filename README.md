@@ -2,7 +2,7 @@
 
 **Find your study group. Pass together.**
 
-StudyWith is a web app where college students find, join and create study groups for their courses, on campus or online. It's our semester project for **Web Programming (Client Side)**, School of Information Systems, 2026–2027.
+StudyWith is a web app where college students find, join and create study groups for their courses, on campus or online. It's our semester project for **Web Programming (Client Side)** and **Server-side Programming**, School of Information Systems, 2026–2027.
 
 ![User flow – Scenario 1: finding and joining a study group](docs/user-flow/scenario-1-flow.png)
 
@@ -30,6 +30,10 @@ StudyWith is a web app where college students find, join and create study groups
 | 4 | Create Group | The main form (11 fields with validation), saved through the course API |
 | 5 | My Groups | Sessions you joined and groups you created |
 
+## Server side
+
+The server is in [server/](server): Node.js and Express, returning JSON. The routes table and how to run it are in [server/README.md](server/README.md).
+
 ## Project structure
 
 ```
@@ -38,6 +42,7 @@ web-project/
 │   ├── Exercise1-Project-Approval.docx   Exercise 1 submission
 │   ├── wireframes/                       Wireframes of the five screens
 │   └── user-flow/                        User flow diagrams
+├── server/                               Node.js + Express server
 └── README.md
 ```
 

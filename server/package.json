@@ -1,0 +1,12 @@
+{
+  "name": "studywith-server",
+  "version": "1.0.0",
+  "description": "StudyWith server – Node.js and Express, returns JSON",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
