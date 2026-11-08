@@ -13,6 +13,7 @@ StudyWith is a web app where college students find, join and create study groups
 | Abed Abuata | [Abedab2](https://github.com/Abedab2) |
 | Mohamad Rayan | [mohdrayan293](https://github.com/mohdrayan293) |
 | Tal Adar | [Tal adar](https://github.com/tal576)|
+| Maayan Ohayon | [maayan ohayon](https://github.com/maayan-svg)|
 
 ## Exercise 1 – Project approval
 
